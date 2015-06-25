@@ -1,0 +1,31 @@
+extends layout
+
+block body
+  div#header.container
+    div.navbar.navbar-inverse.navbar-fixed-top
+      div.container-fluid
+        div.collapse.navbar-collapse
+          div.nav.navbar-nav(ng-controller="AppCtrl")
+            li(ng-repeat="i in data")
+              a(href="{{i.section}}") {{i.title}}
+
+  div(ng-view)
+  div#footer.footerStyle
+     div.container
+       KK Travels Address
+       br
+       | 12,Paban Premnagar Society
+       br 
+       | Bibwewadi Road, Pune-411037, 
+       br
+       | Maharashtra, India.
+
+  script(src='js/lib/angular/angular.js')
+  script(src='js/lib/angular/angular-route.js')
+  script(src='js/app.js')
+  script(src='js/services.js')
+  script(src='js/controllers.js')
+  script(src='js/filters.js')
+  script(src='js/directives.js')
+  script(src='js/lib/jquery/jquery-2.0.3.min.js')
+  script(src='bootstrap/js/bootstrap.min.js')
