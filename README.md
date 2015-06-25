@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Angular Express Bootstrap Seed
 
 Forked from [btford/angular-express-seed](https://github.com/btford/angular-express-seed) and spiced with [Twitter Bootstrap](https://github.com/twitter/bootstrap). jQuery added for convenience.
@@ -82,3 +83,7 @@ A simple [blog](https://github.com/btford/angular-express-blog) based on this se
 For more information on AngularJS please check out http://angularjs.org/
 For more on Express and Jade, http://expressjs.com/ and http://jade-lang.com/ are
 your friends.
+=======
+# TravelCompanyWebsite
+A Travel Company Website 
+>>>>>>> 098d13b1ad0ad409468a899c5a3309767972108b
